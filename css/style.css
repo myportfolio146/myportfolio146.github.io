@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, 'Courier New', Courier, monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #202020;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+body>header>nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+body>header>nav>ul>li:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+body>header>nav>ul>li>a {
+  display: block;
+  margin-top: 0.5rem;
+  background-color: white;
+  color: black;
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .notphone {
+    display: none;
+  }
+}
+
+header {
+  background-color: #151515;
+  padding-bottom: 0.3rem;
+}
+
+main {
+  margin: auto 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #151515;
+  margin-top: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin-right: auto;
+  max-width: 6rem;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+img {
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  display: block;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+header {
+  display: flex;
+}
+
+section {
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 1px solid #aaaaaa;
+  max-width: 30rem;
+  padding: 0 1rem 0.5rem 1rem;
+  margin: 0.25rem auto;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 0.5rem;
+}
